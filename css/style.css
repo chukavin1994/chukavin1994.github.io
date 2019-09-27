@@ -66,3 +66,54 @@ p>span {
 	float: right;
 	cursor: pointer;
 }
+.tab {
+	margin-top: 50px;
+}
+ul {
+	font-size: 0
+}
+ul>li {
+	display: inline-block;
+	border: 1px solid black;
+}
+li>a {
+	width: 150px;
+	color: white;
+	font-size: 25px;
+	background: yellow;
+	display: block;
+}
+
+a:active{
+	background: black;
+	color: white;
+}
+li>a:hover {
+	text-decoration: none;
+	color: white;
+}
+.tab_content {
+	display: none;
+}
+.content>.active {
+	display: block;
+}
+.content {
+	margin-left: 40px;
+}
+.game {
+	width: 150px;
+	height: 150px;
+	background: red;
+	font-size: 0;
+	margin: 0 auto;
+}
+.game_item {
+	width: 50px;
+	height: 50px;
+	float: left;
+	font-size: 15px;
+	border: 1px solid black;
+	box-sizing: border-box;
+	text-align: center;
+}
